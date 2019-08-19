@@ -11,78 +11,48 @@ html {
 body {
     font-family: "Playfair Display", "Times New Roman", serif;
     color: #626262;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    font-weight: 400;
     background-color: #ffffff;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-.container {
-    width: 900px;
-    margin: 0 auto;
-}
-
-/* site-navigation */
 .site-navigation {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 570px;
-    text-align: center;
-    font-size: 0px;
 }
-
-.site-navigation-item {
-    display: inline-block;
-}
-
-/* .site-navigation li:not(:last-child) {
-    margin-right: 100px;
-} */
 
 .site-navigation a {
-    display: block;
-    color: #626262;
-    /* padding: 25, 50; */
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 14px;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus {
+.site-navigation a:hover {
     color: #03a9f4;
 }
 
-.main-content-list {
+.content-list {
     list-style: none;
-    font-size: 0;
 }
 
-.main-content-list-item {
-    display: inline-block;
-    widows: 420px;
-}
-
-.main-content-list-item:not(:nth-child(2n)) {
-    margin-right: 60px;
-}
-
-.main-content-list-name {
-    line-height: 17px;
+.content-list-name {
+    font-family: "Ubuntu", sans-serif;
     color: #b4ad9e;
+    line-height: 17px;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
-.main-content-list-item h3 {
+.content-list-title {
     font-size: 30px;
     line-height: 36px;
+}
+
+button {
+    font-size: 20px;
+}
+
+button:hover {
+    color: #03a9f4;
 }
 
 .visually-hidden:not(:focus):not(:active),
