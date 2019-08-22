@@ -14,44 +14,116 @@ body {
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
-    background-color: #ffffff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.page-header {
+    margin-bottom: 28px;
 }
 
 .site-navigation {
+    margin: 0;
+    padding: 0;
     list-style: none;
+    text-align: center;
+    font-size: 0px;
+}
+
+.site-navigation-item {
+    display: inline-block;
 }
 
 .site-navigation a {
-    text-transform: uppercase;
+    display: block;
+    color: #626262;
+    padding: 75px 50px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
-.site-navigation a:hover {
+.site-navigation a:hover,
+.site-navigation a:focus {
     color: #03a9f4;
 }
 
 .content-list {
+    margin: 0;
+    padding: 0;
     list-style: none;
+    font-size: 0px;
+    margin-bottom: 52px;
+}
+
+.content-list-item {
+    width: 420px;
+    display: inline-block;
+    margin-bottom: 136px;
+}
+
+.content-list-item:not(:nth-child(2n)) {
+    margin-right: 60px;
+}
+
+.content-list-item:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+
+.section-image {
+    background-position: center;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 .content-list-name {
     font-family: "Ubuntu", sans-serif;
     color: #b4ad9e;
+    font-size: 14px;
     line-height: 17px;
     font-weight: 300;
     text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 26px;
 }
 
 .content-list-title {
     font-size: 30px;
     line-height: 36px;
+    margin: 0;
+    margin-bottom: 32px;
 }
 
-button {
+.content-list-about {
+    font-size: 14px;
+    margin: 0;
+}
+
+.load-more {
+    border: none;
+    margin: 0;
+    padding: 20px 34px;
+    color: #626262;
     font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #626262;
+    margin-bottom: 70px;
 }
 
-button:hover {
+.load-more:hover,
+.load-more:focus {
     color: #03a9f4;
 }
 
