@@ -108,10 +108,21 @@ img {
     margin: 0;
 }
 
-.load-more {
+.load {
+    display: block;
+    text-align: center;
     border: none;
     margin: 0;
-    padding: 20px 34px;
+    padding: 0;
+    margin-bottom: 70px;
+}
+
+.load-more {
+    display: inline-block;
+    width: 164px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
     color: #626262;
     font-size: 20px;
     line-height: 24px;
@@ -119,7 +130,6 @@ img {
     cursor: pointer;
     background-color: white;
     border: 1px solid #626262;
-    margin-bottom: 70px;
 }
 
 .load-more:hover,
