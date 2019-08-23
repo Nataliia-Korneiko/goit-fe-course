@@ -36,7 +36,7 @@ img {
     padding: 0;
     list-style: none;
     text-align: center;
-    font-size: 0px;
+    font-size: 0;
 }
 
 .site-navigation-item {
@@ -57,11 +57,15 @@ img {
     color: #03a9f4;
 }
 
+.content {
+    padding-bottom: 70px;
+}
+
 .content-list {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 0px;
+    font-size: 0;
     margin-bottom: 52px;
 }
 
@@ -108,21 +112,12 @@ img {
     margin: 0;
 }
 
-.load {
-    display: block;
-    text-align: center;
-    border: none;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 70px;
-}
-
 .load-more {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
     width: 164px;
     height: 60px;
-    margin: 0;
-    padding: 0;
     color: #626262;
     font-size: 20px;
     line-height: 24px;
