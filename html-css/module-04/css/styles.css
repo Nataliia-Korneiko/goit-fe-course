@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+.site-logo {
+    margin: 0;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.site-logo a {
+    display: inline-block;
+    color: #555252;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-logo a::first-letter {
+    color: #1abc9c;
+    font-weight: 900;
+}
+
+.site-navigation {
+    font-size: 14px;
+    /* line-height: 11px; */
+    list-style: none;
+}
+
+.site-navigation a {
+    font-family: "Open Sans", sans-serif;
+    color: #0f0101;
+    font-size: 14px;
+    line-height: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #1abc9c;
+}
+
+.featured-products {
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.featured-products-title {
+    margin: 0;
+    color: #515151;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.featured-products-list {
+    list-style: none;
+}
+
+.featured-products-list-name {
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.featured-products-list-item a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.latest-news {
+    color: #555252;
+}
+
+.latest-news-title {
+    margin: 0;
+    font-size: 48px;
+    line-height: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.latest-news-list {
+    list-style: none;
+}
+
+.news {
+    font-family: "Open Sans", sans-serif;
+    line-height: 26px;
+}
+
+.news-title {
+    font-weight: 600;
+    font-size: 18px;  
+}
+
+.news-about {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.read-more {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    height: 52px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    text-align: center;
+    cursor: pointer;
+    background-color: #4ec6ab;
+    border: 1px solid #4ec6ab;
+}
+
+.read-more:hover,
+.read-more:focus {
+    background-color: #323232;
+}
+
+
+
