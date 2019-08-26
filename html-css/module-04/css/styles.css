@@ -30,6 +30,7 @@ img {
     background-color: pink;
 }
 
+/* PEGE-HEADER */
 .page-header {
     margin-bottom: 67px;
 }
@@ -39,8 +40,8 @@ img {
 }
 
 .site-logo {
+    display: inline-block;
     margin: 0;
-    padding: 0;
     font-size: 30px;
     line-height: 32px;
 }
@@ -61,8 +62,9 @@ img {
 }
 
 .site-navigation {
+    float: right;
     margin: 0;
-    padding: 0;
+    padding: 14px 0px;
     font-size: 14px;
     line-height: 11px;
     list-style: none;
@@ -82,6 +84,7 @@ img {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
+    background-color: teal;
 }
 
 .site-navigation a:hover,
@@ -89,6 +92,7 @@ img {
     color: #1abc9c;
 }
 
+/* FEATURED-PRODUCTS */
 .featured-products {
     margin-bottom: 105px;
     line-height: 32px;
@@ -120,6 +124,7 @@ img {
 }
 
 .featured-products-list-item {
+    float: left;
     width: 255px;
 }
 
@@ -127,22 +132,37 @@ img {
     margin-right: 30px;
 }
 
-
+.featured-products-list-item:not(:nth-last-child(-n+4)) {
+    margin-bottom: 30px;
+}
 
 .featured-products-list-name {
     margin: 0;
+    padding-left: 14px;
     color: #ffffff;
     font-size: 18px;
     font-weight: 900;
+    background-color: #323232;
+    height: 40px;
+}
+
+.featured-products-list-name::after {
+    float: right;
+    content: "$26";
+    width: 54px;
+    height: 40px;
 }
 
 .featured-products-list-item a {
     display: inline-block;
     color: #ffffff;
+    width: 255px;
+    height: 40px;
     text-decoration: none;
     cursor: pointer;
 }
 
+/* LATEST-NEWS */
 .latest-news {
     color: #555252;
     padding-bottom: 82px;
@@ -174,6 +194,7 @@ img {
 }
 
 .latest-news-list-item {
+    float: left;
     width: 350px;
 }
 
@@ -205,7 +226,6 @@ img {
     width: 136px;
     height: 3px;
     background-color: #4ec6ab;
-
 }
 
 .news-about {
@@ -236,6 +256,3 @@ img {
 .read-more:focus {
     background-color: #323232;
 }
-
-
-
