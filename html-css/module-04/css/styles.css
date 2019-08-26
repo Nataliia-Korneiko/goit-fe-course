@@ -18,14 +18,29 @@ img {
     height: auto;
 }
 
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
 .wrapper {
     width: 1110px;
     margin: 0 auto;
     background-color: pink;
 }
 
+.page-header {
+    margin-bottom: 67px;
+}
+
+.page-nav {
+    padding: 38px 0px;
+}
+
 .site-logo {
     margin: 0;
+    padding: 0;
     font-size: 30px;
     line-height: 32px;
 }
@@ -46,14 +61,22 @@ img {
 }
 
 .site-navigation {
+    margin: 0;
+    padding: 0;
     font-size: 14px;
-    /* line-height: 11px; */
+    line-height: 11px;
     list-style: none;
 }
 
+.site-navigation-item {
+    display: inline-block;
+}
+
 .site-navigation a {
+    display: inline-block;
     font-family: "Open Sans", sans-serif;
     color: #0f0101;
+    padding: 0px 16px;
     font-size: 14px;
     line-height: 11px;
     font-weight: 700;
@@ -67,6 +90,7 @@ img {
 }
 
 .featured-products {
+    margin-bottom: 105px;
     line-height: 32px;
     text-transform: uppercase;
 }
@@ -78,10 +102,32 @@ img {
     font-weight: 900;
     text-align: center;
 }
+.featured-products-title::after {
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 92px;
+    content: "";
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+}
 
 .featured-products-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
+.featured-products-list-item {
+    width: 255px;
+}
+
+.featured-products-list-item:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+
 
 .featured-products-list-name {
     margin: 0;
@@ -99,6 +145,7 @@ img {
 
 .latest-news {
     color: #555252;
+    padding-bottom: 82px;
 }
 
 .latest-news-title {
@@ -109,8 +156,29 @@ img {
     text-align: center;
 }
 
+.latest-news-title::after {
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    content: "";
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+}
+
 .latest-news-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.latest-news-list-item {
+    width: 350px;
+}
+
+.latest-news-list-item:not(:nth-child(3n)) {
+    margin-right: 30px;
 }
 
 .news {
@@ -118,12 +186,31 @@ img {
     line-height: 26px;
 }
 
+.news-image {
+    margin-bottom: 15px;
+}
+
 .news-title {
+    margin: 0;
     font-weight: 600;
-    font-size: 18px;  
+    font-size: 18px;
+}
+
+.news-title::after {
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    content: "";
+    width: 136px;
+    height: 3px;
+    background-color: #4ec6ab;
+
 }
 
 .news-about {
+    margin: 0;
+    margin-bottom: 18px;
     font-weight: 600;
     font-size: 14px;
 }
