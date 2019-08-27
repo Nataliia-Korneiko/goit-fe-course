@@ -10,6 +10,10 @@ html {
 
 body {
     font-family: "Roboto", sans-serif;
+    color: #555252;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 900;
 }
 
 img {
@@ -32,28 +36,30 @@ img {
 
 /* PEGE-HEADER */
 .page-header {
-    margin-bottom: 67px;
+    margin-bottom: 64px;
 }
 
 .page-nav {
-    padding: 38px 0px;
+    padding: 37px 0px;
 }
 
 .site-logo {
     display: inline-block;
+    width: 80px;
     margin: 0;
+    padding: 0;
     font-size: 30px;
-    line-height: 32px;
 }
 
 .site-logo a {
-    display: inline-block;
+    display: block;
     color: #555252;
+    width: 80px;
     font-size: 30px;
-    line-height: 32px;
     font-weight: 300;
-    text-transform: uppercase;
+    text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .site-logo a::first-letter {
@@ -63,27 +69,33 @@ img {
 
 .site-navigation {
     float: right;
+    width: 476px;
     margin: 0;
-    padding: 14px 0px;
+    margin-top: 9px;
+    padding: 0;
     font-size: 14px;
-    line-height: 11px;
+    line-height: 17px;
     list-style: none;
 }
 
-.site-navigation-item {
-    display: inline-block;
+.site-navigation li {
+    float: left;
 }
 
+.site-navigation li:not(:last-child) {
+    margin-right: 32px;
+}
+    
 .site-navigation a {
-    display: inline-block;
+    display: block;
     font-family: "Open Sans", sans-serif;
     color: #0f0101;
-    padding: 0px 16px;
     font-size: 14px;
-    line-height: 11px;
+    line-height: 17px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     background-color: teal;
 }
 

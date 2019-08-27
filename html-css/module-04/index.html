@@ -16,7 +16,7 @@
     <header class="page-header wrapper">
         <nav class="page-nav clearfix">
             <h1 class="site-logo"><a href="#" class="site-logo-link">Mart</a></h1> 
-            <ul class="site-navigation">
+            <ul class="site-navigation clearfix">
                 <li class="site-navigation-item"><a href="#" class="site-navigation-link">Home</a></li>
                 <li class="site-navigation-item"><a href="#" class="site-navigation-link">About Us</a></li>
                 <li class="site-navigation-item"><a href="#" class="site-navigation-link">Page</a></li>
@@ -28,52 +28,79 @@
     </header>
 
     <main class="wrapper">
+        
         <section class="featured-products">
             <h2 class="featured-products-title">Featured Products</h2>
-            <ul class="featured-products-list clearfix">
+            <ul class="featured-products-list">
                 <li class="featured-products-list-item">
                     <img class="featured-products-list-image" src="img/blue-shoes.jpg" alt="image with blue shoes" width="255" height="322">
-                    <h3 class="featured-products-list-name clearfix">Blue Tshirt</h3>
+                    <div class="featured-products-list-about">
+                        <p class="featured-products-list-name">Blue Tshirt</p>
+                        <p class="featured-products-list-price">$26</p>
+                    </div>
+                    <!-- <h3 class="featured-products-list-name clearfix">Blue Tshirt</h3> -->
                 </li>
                 <li class="featured-products-list-item">
                     <img class="featured-products-list-image" src="img/brown-belt.jpg" alt="image with a brown belt" width="255" height="322">
-                    <h3 class="featured-products-list-name clearfix">Woman Shirt</h3>
+                    <div class="featured-products-list-about">
+                        <p class="featured-products-list-name">Woman Shirt</p>
+                        <p class="featured-products-list-price">$31</p>
+                    </div>
                 </li>
                 <li class="featured-products-list-item">
                     <img class="featured-products-list-image" src="img/hat.jpg" alt="image with a hat" width="255" height="322">
-                    <h3 class="featured-products-list-name clearfix">Yellow Tshirt</h3>
+                    <div class="featured-products-list-about">
+                        <p class="featured-products-list-name">Yellow Tshirt</p>
+                        <p class="featured-products-list-price">$21</p>
+                    </div>
                 </li>
                 <li class="featured-products-list-item">
                     <img class="featured-products-list-image" src="img/blue-bag.jpg" alt="image with a blue bag" width="255" height="322">
-                    <h3 class="featured-products-list-name clearfix">Cool Lingerie</h3>
+                    <div class="featured-products-list-about">
+                        <p class="featured-products-list-name">Cool Lingerie</p>
+                        <p class="featured-products-list-price">$56</p>
+                    </div>
                 </li>
                 <li class="featured-products-list-item">
                     <img class="featured-products-list-image" src="img/black-bag.jpg" alt="image with a black bag" width="255" height="322">
-                    <h3 class="featured-products-list-name clearfix">Blue Tshirt</h3>
+                    <div class="featured-products-list-about">
+                        <p class="featured-products-list-name">Blue Tshirt</p>
+                        <p class="featured-products-list-price">$26</p>
+                    </div>
                 </li>
                 <li class="featured-products-list-item">
                     <img class="featured-products-list-image" src="img/black-belt.jpg" alt="image with a black belt" width="255" height="322">
-                    <h3 class="featured-products-list-name clearfix">Woman Shirt</h3>
+                    <div class="featured-products-list-about">
+                        <p class="featured-products-list-name">Woman Shirt</p>
+                        <p class="featured-products-list-price">$31</p>
+                    </div>
                 </li>
                 <li class="featured-products-list-item">
                     <img class="featured-products-list-image" src="img/brown-shoes.jpg" alt="image with brown shoes" width="255" height="322">
-                    <h3 class="featured-products-list-name clearfix">Yellow Tshirt</h3>
+                    <div class="featured-products-list-about">
+                        <p class="featured-products-list-name">Yellow Tshirt</p>
+                        <p class="featured-products-list-price">$21</p>
+                    </div>
                 </li>
                  <li class="featured-products-list-item">
                     <img class="featured-products-list-image" src="img/glasses.jpg" alt="image with glasses" width="255" height="322">
-                    <h3 class="featured-products-list-name clearfix">Cool Lingerie</h3>
+                    <div class="featured-products-list-about">
+                        <p class="featured-products-list-name">Cool Lingerie</p>
+                        <p class="featured-products-list-price">$56</p>
+                    </div>
                 </li>
             </ul>
         </section>
+
         <section class="latest-news">
             <h2 class="latest-news-title">Latest News</h2>
-            <ul class="latest-news-list clearfix">
+            <ul class="latest-news-list">
                 <li class="latest-news-list-item">
                     <artical class="news">
                         <img class="news-image" src="img/latest-news-1.jpg" alt="image with a tablet" width="350" height="262">
                         <h3 class="news-title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h3>
                         <p class="news-about">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare</p>
-                        <button class="read-more">Read More</button>
+                        <a class="read-more" href="#">Read More</a>
                     </artical>
                 </li>
                 <li class="latest-news-list-item">
@@ -81,7 +108,7 @@
                         <img class="news-image" src="img/latest-news-2.jpg" alt="image with two girls" width="350" height="262">
                         <h3 class="news-title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h3>
                         <p class="news-about">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare</p>
-                        <button class="read-more">Read More</button>
+                        <a class="read-more" href="#">Read More</a>
                     </artical>
                 </li>
                 <li class="latest-news-list-item">
@@ -89,11 +116,13 @@
                         <img class="news-image" src="img/latest-news-3.jpg" alt="image with a bus" width="350" height="262">
                         <h3 class="news-title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h3>
                         <p class="news-about">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare</p>
-                        <button class="read-more">Read More</button>
+                        <a class="read-more" href="#">Read More</a>
                     </artical>
                 </li>
             </ul>
+
         </section>
+
     </main>
     
 </body>
