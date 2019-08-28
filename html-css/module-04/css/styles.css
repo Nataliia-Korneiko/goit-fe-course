@@ -36,7 +36,7 @@ img {
 
 /* PEGE-HEADER */
 .page-header {
-    margin-bottom: 64px;
+    margin-bottom: 56px;
 }
 
 .page-nav {
@@ -106,8 +106,7 @@ img {
 
 /* FEATURED-PRODUCTS */
 .featured-products {
-    margin-bottom: 105px;
-    line-height: 32px;
+    margin-bottom: 100px;
     text-transform: uppercase;
 }
 
@@ -115,14 +114,16 @@ img {
     margin: 0;
     color: #515151;
     font-size: 48px;
+    line-height: 58px;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 92px;
 }
+
 .featured-products-title::after {
     display: block;
     margin: 0 auto;
-    margin-top: 32px;
-    margin-bottom: 92px;
+    margin-top: 27px;
     content: "";
     width: 164px;
     height: 7px;
@@ -130,9 +131,9 @@ img {
 }
 
 .featured-products-list {
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .featured-products-list-item {
@@ -148,51 +149,56 @@ img {
     margin-bottom: 30px;
 }
 
-.featured-products-list-name {
-    margin: 0;
-    padding-left: 14px;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 900;
-    background-color: #323232;
-    height: 40px;
-}
-
-.featured-products-list-name::after {
-    float: right;
-    content: "$26";
-    width: 54px;
-    height: 40px;
-}
-
-.featured-products-list-item a {
-    display: inline-block;
+.featured-products-list-about {
     color: #ffffff;
     width: 255px;
     height: 40px;
-    text-decoration: none;
-    cursor: pointer;
+}
+
+.featured-products-list-name {
+    float: left;
+    margin: 0;
+    padding: 4px 0px;
+    padding-left: 14px;
+    width: 201px;
+    background-color: #323232;
+}
+
+.featured-products-list-item:hover .featured-products-list-name {
+    background-color: #1abc9c;
+}
+
+.featured-products-list-price {
+    float: right;
+    margin: 0;
+    padding: 4px 0px;
+    padding-left: 12px;
+    width: 54px;
+    background-color: #8c8c8c;
+}
+
+.featured-products-list-item:hover .featured-products-list-price {
+    background-color: #7fd9c7;
 }
 
 /* LATEST-NEWS */
 .latest-news {
-    color: #555252;
-    padding-bottom: 82px;
+    /* padding-bottom: 82px; */
 }
 
 .latest-news-title {
     margin: 0;
     font-size: 48px;
-    line-height: 32px;
+    line-height: 58px;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 81px;
 }
 
 .latest-news-title::after {
     display: block;
     margin: 0 auto;
-    margin-top: 32px;
-    margin-bottom: 80px;
+    margin-top: 27px;
     content: "";
     width: 164px;
     height: 7px;
@@ -200,9 +206,9 @@ img {
 }
 
 .latest-news-list {
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .latest-news-list-item {
@@ -220,13 +226,13 @@ img {
 }
 
 .news-image {
-    margin-bottom: 15px;
+    margin-bottom: 11px;
 }
 
 .news-title {
     margin: 0;
-    font-weight: 600;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .news-title::after {
