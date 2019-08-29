@@ -35,7 +35,7 @@ img {
 
 /* PEGE-HEADER */
 .page-header {
-    margin-bottom: 56px;
+    margin-bottom: 54px;
 }
 
 .page-nav {
@@ -121,7 +121,7 @@ img {
 .featured-products-title::after {
     display: block;
     margin: 0 auto;
-    margin-top: 27px;
+    margin-top: 23px;
     content: "";
     width: 164px;
     height: 7px;
@@ -186,7 +186,7 @@ img {
 
 .latest-news-title {
     margin: 0;
-    margin-bottom: 80px;
+    margin-bottom: 81px;
     font-size: 48px;
     line-height: 58px;
     font-weight: 900;
@@ -197,7 +197,7 @@ img {
 .latest-news-title::after {
     display: block;
     margin: 0 auto;
-    margin-top: 27px;
+    margin-top: 23px;
     content: "";
     width: 164px;
     height: 7px;
@@ -230,6 +230,7 @@ img {
 
 .news-title {
     margin: 0;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 24px;
 }
@@ -237,7 +238,7 @@ img {
 .news-title::after {
     display: block;
     margin: 0;
-    margin-top: 11px;
+    margin-top: 10px;
     content: "";
     width: 136px;
     height: 3px;
@@ -258,14 +259,15 @@ img {
     color: #ffffff;
     width: 160px;
     height: 50px;
-    font-style: 16px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center;
     text-decoration: none;
     background-color: #4ec6ab;
+    border-radius: 3px;
 }
 
 .read-more:hover,
 .read-more:focus {
-    background-color: #555252;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.39);
 }
