@@ -44,7 +44,6 @@ img {
 
 .site-logo {
     display: inline-block;
-    width: 80px;
     margin: 0;
     padding: 0;
     font-size: 30px;
@@ -53,7 +52,6 @@ img {
 .site-logo a {
     display: block;
     color: #555252;
-    width: 80px;
     font-size: 30px;
     font-weight: 300;
     text-align: center;
@@ -68,7 +66,7 @@ img {
 
 .site-navigation {
     float: right;
-    width: 476px;
+    min-width: 476px;
     margin: 0;
     margin-top: 9px;
     padding: 0;
