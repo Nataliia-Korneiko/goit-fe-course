@@ -1,0 +1,237 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    color: #777777;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+}    
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.page__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.site__logo {
+    display: block;
+}
+
+/* SITE NAVIGATION */
+.site__navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 485px;
+    list-style: none;
+}
+
+.site__navigation__link {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    color: #222222;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site__navigation__link:hover,
+.site__navigation__link:focus {
+    color: #fed136;
+}
+
+/* SECTOIN SERVICES */
+.services {
+    padding-top: 58px;
+    padding-bottom: 118px;
+}
+
+.services__title {
+    font-family: "Montserrat", sans-serif;
+    color: #222222;
+    font-size: 40px;
+    line-height: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.services__title__about {
+    margin-bottom: 76px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.services__list__item {
+    flex: 0 0 290px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    text-align: center;
+}
+
+.basket {
+    background-image: url(..//img/icons/icon-basket.png);
+}
+
+.laptop {
+    background-image: url(..//img/icons/icon-laptop.png);
+}
+
+.lock {
+    background-image: url(..//img/icons/icon-lock.png);
+}
+
+.services__list__title {
+    padding-top: 70px;
+    font-family: "Montserrat", sans-serif;
+    color: #222222;
+    font-size: 18px;
+    line-height: 75px;
+    font-weight: 700;
+}
+
+/* FOOTER */
+.page__footer {
+    padding-top: 106px;
+    padding-bottom: 50px;
+    background-color: #222222;
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.footer__title {
+    margin-bottom: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer__title__about {
+    margin: 0;
+    margin-bottom: 74px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer__form {
+    height: 371px;
+}
+
+.footer__form__information {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer__form__user {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 455px;
+}
+
+.footer__form__user input {
+    display: block;
+    padding-left: 21px;
+    height: 52px;
+    border: 1px solid  #cccccc;
+    border-radius: 2px;
+    font-family: "Montserrat", sans-serif;
+    color: #bbbbbb;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer__form__message textarea {
+    display: block;
+    padding-top: 18px;
+    padding-left: 21px;
+    width: 455px;
+    height: 212px;
+    border: 1px solid  #cccccc;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    color: #bbbbbb;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    resize: none;
+}
+
+.form__button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 3px;
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.visually__hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
