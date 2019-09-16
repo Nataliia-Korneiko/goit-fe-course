@@ -1,3 +1,43 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-300italic - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
+         url('../fonts/open-sans-v17-latin/open-sans-v17-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v17-latin/open-sans-v17-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+         url('../fonts/roboto-slab-v9-latin/roboto-slab-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-slab-v9-latin/roboto-slab-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html {
     box-sizing: border-box;
 }
@@ -187,6 +227,18 @@ img {
     text-transform: uppercase;
 }
 
+.footer__form__user input[name="name"]:focus:valid,
+.footer__form__user input[name="email"]:focus:valid {
+    border: none;
+    outline-color: green;
+}
+
+.footer__form__user input[name="name"]:focus:invalid,
+.footer__form__user input[name="email"]:focus:invalid {
+    border: none;
+    outline-color: red;
+}
+
 .footer__form__message textarea {
     display: block;
     padding-top: 18px;
@@ -202,6 +254,16 @@ img {
     font-weight: 700;
     text-transform: uppercase;
     resize: none;
+}
+
+.footer__form__message textarea[name="message"]:focus:valid {
+    border: none;
+    outline-color: green;
+}
+
+.footer__form__message textarea[name="message"]:focus:invalid {
+    border: none;
+    outline-color: red;
 }
 
 .form__button {
