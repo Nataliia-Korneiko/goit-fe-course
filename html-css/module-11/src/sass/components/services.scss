@@ -1,0 +1,78 @@
+.services {
+  padding-top: 44px;
+  padding-bottom: 42px;
+}
+
+.services__subtitle {
+  @include subtitle;
+}
+
+.services__title {
+  margin-bottom: 65px;
+  @include title;
+
+  &::after {
+    @include title-after;
+  }
+}
+
+.services-list {
+  @include list;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.services-list__item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 380px;
+  flex: 0 0 380px;
+  margin-bottom: 95px;
+  padding-left: 82px;
+  background-repeat: no-repeat;
+  background-position: 20px 0;
+}
+
+.services-list__item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.clock {
+  background-image: url(../images/icons-services/icon-clock.svg);
+}
+
+.graph {
+  background-image: url(../images/icons-services/icon-graph.svg);
+}
+
+.computer {
+  background-image: url(../images/icons-services/icon-computer.svg);
+}
+
+.book {
+  background-image: url(../images/icons-services/icon-book.svg);
+}
+
+.house {
+  background-image: url(../images/icons-services/icon-house.svg);
+}
+
+.target {
+  background-image: url(../images/icons-services/icon-target.svg);
+}
+
+.services-list__title {
+  margin-bottom: 14px;
+  font-family: $main-font-1;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.services-list__about {
+  margin: 0;
+  font-size: 15px;
+  line-height: 24px;
+  color: $main-color-5;
+}

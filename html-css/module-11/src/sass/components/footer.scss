@@ -1,0 +1,51 @@
+.footer .container {
+  @include list;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 62px;
+}
+
+.footer__about {
+  margin: 0;
+  font-family: $main-font-1;
+}
+
+.footer__site {
+  color: $main-color-1;
+}
+
+.footer__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 378px;
+}
+
+.footer__form-email {
+  display: block;
+  padding: 12px;
+  width: 230px;
+  font-family: $main-font-3;
+  color: $main-color-7;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: italic;
+  border: 1px solid $main-color-8;
+}
+
+.footer__form-button {
+  @include button;
+  border: none;
+  margin: 0;
+  padding: 12px 33px;
+  font-family: $main-font-1;
+  background-color: $main-color-4;
+  color: $main-color-3;
+
+  &:hover,
+  &:focus {
+    background-color: $main-color-1;
+  }
+}

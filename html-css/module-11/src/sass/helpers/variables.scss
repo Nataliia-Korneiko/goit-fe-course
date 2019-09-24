@@ -1,0 +1,57 @@
+$main-color-1: #f38181;
+$main-color-2: #fce38a;
+$main-color-3: #ffffff;
+$main-color-4: #95e1d3;
+$main-color-5: #999999;
+$main-color-6: #e5e5e5;
+$main-color-7: #cccccc;
+$main-color-8: #e7e7e7;
+$main-color-9: #333333;
+
+$linear-gradient-1: rgba(252, 227, 138, 0.9);
+$linear-gradient-2: rgba(243, 129, 129, 0.9);
+
+$main-font-1: 'Montserrat', sans-serif;
+$main-font-2: 'Kaushan Script', cursive;
+$main-font-3: 'Roboto', sans-serif;
+
+@mixin list {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin button {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@mixin subtitle {
+  margin: 0;
+  margin-bottom: 17px;
+  font-family: $main-font-2;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+@mixin title {
+  font-family: $main-font-1;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@mixin title-after {
+  display: block;
+  margin: 0 auto;
+  margin-top: 42px;
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: $main-color-1;
+}
